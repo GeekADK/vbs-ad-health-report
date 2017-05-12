@@ -189,7 +189,7 @@ Next
 sHTML = sHTML & "</table>"
 If includeRepadmin Then sHTML = sHTML & checkRepadmin()
 sHTML = sHTML & "<font face='tahoma' size='2'>Execution Time: <b>" & Round(Timer() - TimeStart, 2) & "s</b></font><br />"
-sHTML = sHTML & "<font face='tahoma' size='2'>Domain Controller: <b>" & CreateObject("WScript.Network").ComputerName & "s</b></font>"
+sHTML = sHTML & "<font face='tahoma' size='2'>Domain Controller: <b>" & CreateObject("WScript.Network").ComputerName & "</b></font>"
 sHTML = sHTML & "</body>"
 sHTML = sHTML & "</html>"
 
